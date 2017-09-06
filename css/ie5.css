@@ -1,0 +1,359 @@
+/* Website template by freewebsitetemplates.com */
+
+body {
+	color: #a0496c;
+	font-family: Arial;
+	font-size: 13px;
+	margin: 0;
+	min-width: 960px;
+	padding: 0;
+	width: auto;
+}
+
+a {
+	outline: none;
+}
+
+img {
+	border: 0;
+}
+
+p {
+	line-height: 24px;
+	text-align: justify;
+}
+
+p a {
+	color: #867f79;
+}
+
+p a:hover {
+	color: #3f4044;
+}
+
+#page {
+	background: url(../images/bg-header.gif) repeat-x top center;
+	width: 100%;
+}
+
+#header {
+	height: 130px;
+	margin: 0 auto;
+	overflow: hidden;
+	width: 960px;
+}
+
+#header div {
+	float: left;
+	height: 130px;
+	width: 316px;
+}
+
+#header ul {
+	background: url(../images/bg-navigation.gif) no-repeat top center;
+	float: left;
+	height: 50px;
+	list-style: none;
+	margin: 80px 0 0;
+	padding: 0;
+	width: 644px;
+}
+
+#header ul li {
+	float: left;
+	width: 129px;
+}
+
+#header ul li.first {
+	width: 128px;
+}
+
+#header ul li.last {
+	width: 128px;
+}
+
+#header ul li a {
+	color: #fffbff;
+	display: block;
+	line-height: 50px;
+	text-align: center;
+	text-decoration: none;
+	text-shadow: 1px 1px 0 #cc0850;
+	text-transform: capitalize;
+}
+
+#header ul li a:hover, #header ul li.selected a {
+	background: url(../images/sprites-icons.gif) no-repeat 0 -370px;
+	color: #7c0032;
+	text-shadow: 1px 1px 0 #fde8f7;
+}
+
+#header ul li.first a:hover, #header ul li.current a {
+	background: url(../images/sprites-icons.gif) no-repeat 0 -250px;
+	color: #7c0032;
+	text-shadow: 1px 1px 0 #fde8f7;	
+}
+
+#header ul li.last a:hover, #header ul li.select a  {
+	background: url(../images/sprites-icons.gif) no-repeat 0 -310px;
+	color: #7c0032;
+	text-shadow: 1px 1px 0 #fde8f7;	
+}
+
+#content {
+	height: auto;
+	margin-bottom: px;
+	width: auto;
+}
+
+
+
+#content ul {
+	margin-left: 50px;
+	width: auto;
+	margin-top: 50px;
+	margin-bottom: 100px;
+}
+
+
+
+
+
+
+#footer {
+	background: #f2e1e9 url(../images/bg-footer2.gif) repeat-x top center;
+	height: auto;
+	width: 100%;
+}
+
+#footer div {
+	background:  url(../images/bg-footer.jpg) no-repeat top center;
+}
+
+#footer div div {
+	margin: 0 auto 50px;
+	width: 960px;
+}
+
+#footer div div ul {
+	clear: both;
+	list-style: none;
+	margin: 0;
+	overflow: hidden;
+	padding: 0;
+}
+
+#footer div div ul li {
+	float: left;
+	margin-top: 100px;
+	padding-right: 0px;
+	width: 320px;
+}
+
+#footer div div ul li h2 {
+	font-size: 20px;
+	font-style: italic;
+	margin: 0 0 0 100px;
+	padding: 0px;
+	width: 330px;
+}
+
+#footer div div ul li h2 a {
+	color: #f63c85;
+	display: block;
+	margin-left: -100px;
+	text-decoration: none;
+}
+
+#footer div div ul li p {
+	margin-left: 3px;
+    width: 283px;
+}
+
+#footer div div div {
+	background: none;
+	overflow: hidden;
+	padding-top: 65px;
+    width: auto;
+}
+
+#footer div div div div {
+	float: left;
+    height: auto;
+    margin-left: 35px;
+    width: 282px;
+}
+
+#footer div div div div.first {
+	margin-left: 21px;
+}
+
+#footer div div div div h3 {
+	color: #F63C85;
+	font-size: 18px;
+	font-style: italic;
+	margin: 0;
+}
+
+#footer div div div div h3 a:hover, 
+#footer div div ul li h2 a:hover,
+#content div div.aside ul li a:hover {
+	color: #ab3d69;
+}
+
+#content div#About Us div ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+#content div#About Us div ul li {
+	background: url(../images/border-dashed.gif) repeat-x center 25px;
+	padding-top: 10px;
+	position: relative;
+}
+
+#content div#About Us div ul li span#date {
+	background: url(../images/sprites-icons.gif) no-repeat 0 -209px;
+	color: #F8FFFB;
+    display: inline-block;
+    font-weight: bold;
+    height: 30px;
+    line-height: 30px;
+    text-indent: 17px;
+    width: 87px;
+}
+
+#content div#About Us div ul li span.connect {
+	display: block;
+	height: 20px;
+    position: absolute;
+    right: 0;
+    top: 0;
+	z-index: 1;
+}
+
+#content div#About Us div ul li span.connect a {
+	display: block;
+	float: left;
+    height: 20px;
+	margin: 0 0 0 5px;
+    text-decoration: none;
+    text-indent: -99999px;
+    width: 20px;
+}
+
+#content div#About Us div ul li span.connect a.twitter {
+	background: url(../images/sprites-icons.gif) no-repeat 0 -1330px;
+}
+ 
+#content div#About Us div ul li span.connect a.heart {
+	background: url(../images/sprites-icons.gif) no-repeat 0 -1083px;
+}
+
+#content div#About Us div ul li span.connect a.facebook {
+	background: url(../images/sprites-icons.gif) no-repeat 0 -1022px;
+}
+
+#content div#About Us div ul li h1 {
+	font-weight: normal;
+	text-indent: 100px;
+}
+
+#content div#About Us div ul li h1 a {
+	color: #875976;
+	text-decoration: none;
+}
+
+#content div#About Us div ul li h1 a:hover {
+	color: #68475d;
+}
+
+#content div#About Us div ul li h2 {
+	font-weight: normal;
+	padding-top: 0;
+}
+
+#content div#About Us div div.section {
+	padding-top: 10px;
+}
+
+#content div#About Us div div.section a {
+	color: #F63C85;
+    display: block;
+    float: left;
+    font-size: 18px;
+	height: 1%;
+	line-height: 18px;
+    text-align: center;
+    text-decoration: none;
+    width: 206px;
+}
+
+#content div#About Us div div.section a.newerpost {
+	text-align: left;
+}
+
+#content div#About Us div div.section a.olderpost {
+	text-align: right;
+}
+
+#content div#About Us div ul li img {
+	margin-right: 105px;
+    margin-top: -43px;
+}
+
+#footer div div div div ul {
+	list-style: none;
+	margin: 0;
+    overflow: hidden;
+    padding: 10px 0 0 10px;
+}
+
+#footer div div div div ul li {
+	float: left;
+    padding: 5px 0;
+    width: 125px;
+}
+
+#footer div div div div ul li a {
+	color: #584549;
+	display: block;
+	height: 22px;
+	line-height: 22px;
+	text-decoration: none;
+	text-indent: 30px;
+}
+
+#footer div div div div ul li a:hover {
+	color: #A0496C;
+}
+
+#footer div div div div ul li a.facebook {
+	background: url(../images/sprites-icons.gif) no-repeat 0 -990px;
+	margin-top: -75px;
+	margin-left: 55px;
+}
+
+
+#footer div div div div span {
+	background: url(../images/sprites-icons.gif) no-repeat 0 -1114px;
+	display: block;
+	color: #584549;
+	font-family: Georgia;
+	font-size: 20px;
+    height: 40px;
+    line-height: 40px;
+    margin-top: 40px;
+    text-indent: 60px;
+}
+
+#footer div p.footnote {
+	background: url(../images/bg-copyright.gif) no-repeat top center;
+	color: #c48aa0;
+	display: block;
+	height: 60px;
+	line-height: 60px;
+	margin: 0;
+	text-align: center;
+}
