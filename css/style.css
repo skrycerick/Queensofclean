@@ -462,7 +462,7 @@ p a:hover {
 }
 
 #content div div.aside div ol li a.facebook{
-	background: url(../images/Facebook.gif);
+	background: url(../images/Facebook.gif) no-repeat 0;
 }
 
 
