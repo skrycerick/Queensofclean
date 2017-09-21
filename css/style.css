@@ -104,14 +104,16 @@ p a:hover {
 #content {
 	height: auto;
 	margin-bottom: 50px;
+	margin-top: 10px;
 	width: auto;
 }
 
 #content span.background {
-	background: url(../images/beautiful-girl.png) no-repeat top center;
+	background: url(../images/cleaninglady.png) no-repeat top center;
 	display: block;
+	Margin-top: 30 px;
 	height: 300px;
-	Width: 300 px;
+	Width: auto;
 	 background-size: block;
     background-repeat: no-repeat;
     background-position: 50% 30%;
@@ -119,9 +121,10 @@ p a:hover {
 
 #content div#home {
 	overflow: hidden;
-	margin: 5px auto 0;
+	margin-top: 45px;
+	margin-bottom: -100px;
 	padding: 0 0 0 0px;
-	width: 920px;
+	width: 960px;
 	
 }
 
@@ -550,7 +553,7 @@ p a:hover {
 }
 
 #footer div div {
-	margin: 0 auto 50px;
+	margin: 0 auto; 
 	width: 960px;
 }
 
@@ -569,24 +572,20 @@ p a:hover {
 	width: 320px;
 }
 
-#footer div div ul li h2 {
-	font-size: 20px;
-	font-style: italic;
-	margin: 0 0 0 100px;
-	padding: 0px;
-	width: 330px;
+#footer div div ul li img  {
+	float: center;
 }
 
-#footer div div ul li h2 a {
+#footer div div ul li h2  {
 	color: #f63c85;
-	display: block;
-	margin-left: -100px;
-	text-decoration: none;
+	text-align: center;
 }
 
 #footer div div ul li p {
-	margin-left: 3px;
-    width: 283px;
+	float: center;
+	margin-right: 15px;
+  
+	text-align: center;
 }
 
 #footer div div div {
@@ -614,10 +613,8 @@ p a:hover {
 	margin: 0;
 }
 
-#footer div div div div h3 a:hover, 
-#footer div div ul li h2 a:hover,
-#content div div.aside ul li a:hover {
-	color: #ab3d69;
+#footer div div div div h2{
+float: center;
 }
 
 #content div#About Us div ul {
