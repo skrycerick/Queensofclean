@@ -450,10 +450,10 @@ p a:hover {
 }
 
 #content div div.aside div ol li {
-	float: left;
+	float: center;
     height: 120px;
     padding: 0;
-    width: 120px;
+    width: 240px;
 }
 
 #content div div.aside div ol li a {
@@ -465,7 +465,7 @@ p a:hover {
 }
 
 #content div div.aside div ol li a.facebook {
-	background: url(../images/sprites-icons.gif) no-repeat 0 -430px;
+	background:  url(../images/facebook.png) no-repeat top center;
 }
 
 
